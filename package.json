@@ -1,0 +1,36 @@
+{
+  "name": "task-todo-proyect",
+  "version": "1.0.0",
+  "description": "Proyecto curso React avanzado, utilizando redux, jsx",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development --module-bing js=babel-loader ./src/index.js --output ./buildTest/main.js",
+    "build": "webpack --mode production --module-bing js=babel-loader ./src/index.js --output ./buildProd/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marialuna181/task-todo-proyect.git"
+  },
+  "keywords": [],
+  "author": "Maria Luna Tito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marialuna181/task-todo-proyect/issues"
+  },
+  "homepage": "https://github.com/marialuna181/task-todo-proyect#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
