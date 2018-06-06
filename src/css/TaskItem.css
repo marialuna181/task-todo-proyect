@@ -1,0 +1,11 @@
+.proceso{
+    background: #FFFF00;
+}
+
+.terminado{
+    background: #3ADF00;
+}
+
+.pendiente{
+    background: #FF0000;
+}
