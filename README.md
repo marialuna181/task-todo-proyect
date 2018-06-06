@@ -1,20 +1,20 @@
 # task-todo-proyect
 Proyecto curso React avanzado, utilizando redux, jsx
 
-#clonar
+# clonar
 git clone https://github.com/marialuna181/task-todo-proyect.git
 
-#instalar
+# instalar
 npm install
 
-#iniciar
+# iniciar
 npm start
 
-#build produccion
+# build produccion
 npm run build
 
-#build development
+# build development
 npm run dev
 
-#Webpack
+# Webpack
 Ver el archivo webpack configurado desde cero para que cree carpetas en modo desarrollo y producción aparte para que compile los js y css
