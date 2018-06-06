@@ -1,7 +1,6 @@
 # task-todo-proyect
 Proyecto curso React avanzado, utilizando redux, jsx
 
-
 #clonar
 git clone https://github.com/marialuna181/task-todo-proyect.git
 
